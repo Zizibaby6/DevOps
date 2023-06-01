@@ -1,0 +1,52 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    /*background-image: url('background image.jpg');*/
+    background-size: cover;
+    background-color: mediumpurple;
+
+
+   }
+.purple {
+    background-size: cover;
+    /*margin :-10px;*/
+    background-image: url('pexels-cottonbro-studio-7579831.jpg');
+    width: 1360px;
+    margin-left: -30px;
+    height: 500px;
+    margin-right: 100px;
+}
+
+.text-white {
+    color: white;
+}
+
+
+
+.card-container {
+
+    display: flex;
+    margin-top: -100px;
+  
+}
+.card {
+    width:300px ;
+    height:300px;
+    padding :20px;
+    margin: 10px; 
+    border-radius:5px;
+}
